@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Akoro | Digital Media |</title>
+    <!--^Favicon images begin-->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -20,5 +21,14 @@
       href="./assets/favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <!--^Favicon images end-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
+  <body>
+    <script>
+      //takes user to loading page when index loads
+      $(window).ready((window.location.href = "\loading-page.html"));
+    </script>
+  </body>
 </html>
