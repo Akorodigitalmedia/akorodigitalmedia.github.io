@@ -93,6 +93,7 @@ function InteractiveLogo() {
                 fill="#302C2D"
                 className={a_color}
                 onMouseOver={changeColorA}
+                onClick={changeColorA}
               />
               <path
                 id="Letter_K"
@@ -100,6 +101,7 @@ function InteractiveLogo() {
                 fill="#302C2D"
                 className={k_color}
                 onMouseOver={changeColorK}
+                onClick={changeColorK}
               />
               <path
                 id="Letter_O_1"
@@ -107,6 +109,7 @@ function InteractiveLogo() {
                 fill="#302C2D"
                 className={o_1_color}
                 onMouseOver={changeColorO1}
+                onClick={changeColorO1}
               />
               <path
                 id="Letter_R"
@@ -114,6 +117,7 @@ function InteractiveLogo() {
                 fill="#302C2D"
                 className={r_color}
                 onMouseOver={changeColorR}
+                onClick={changeColorR}
               />
               <path
                 id="Letter_O_2"
@@ -121,6 +125,7 @@ function InteractiveLogo() {
                 fill="#302C2D"
                 className={o_2_color}
                 onMouseOver={changeColorO2}
+                onClick={changeColorO2}
               />
               <g id="Dots">
                 <path
