@@ -45,6 +45,9 @@ div {
   }
   .social-media-icon svg {
   }
+  .type-writter-text-container {
+    bottom: 8vw !important;
+  }
 }
 
 .loading-page-container {
