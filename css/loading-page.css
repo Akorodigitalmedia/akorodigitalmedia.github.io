@@ -1,0 +1,19 @@
+body{
+    background-color: #FEE9D9;
+}
+.website-container{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 50vw;
+    align-self: center;
+    flex-direction: column;
+}
+.logo svg{
+    height: inherit;
+    width: inherit;
+}
+#Letter_A:hover{
+    fill:blue;
+}
