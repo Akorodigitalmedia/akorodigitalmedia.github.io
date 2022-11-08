@@ -10,11 +10,11 @@ class loadingPage extends React.Component{
         return <div className="loading-page-container container">
             <div className="social-media-icons-container">
                 {/* TODO add real social media icons */}
-                <SocialMediaIcon img_src="././assets/behance.svg" link_destination="http://www.behance.com"/>
-                <SocialMediaIcon img_src="././assets/facebook.svg" link_destination="http://facebook.com"/>
+                <SocialMediaIcon img_src="././assets/behance.svg" link_destination="https://www.behance.net/AkoroDigitalMedia"/>
+                <SocialMediaIcon img_src="././assets/facebook.svg" link_destination="https://www.facebook.com/akorodigitalmedia"/>
                 <SocialMediaIcon img_src="././assets/instagram.svg" link_destination="http://instagram.com"/>
-                <SocialMediaIcon img_src="././assets/likedin.svg" link_destination="http://linkedin.com.com"/>
-                <SocialMediaIcon img_src="././assets/youtube.svg" link_destination="http://youtube.com"/>
+                <SocialMediaIcon img_src="././assets/likedin.svg" link_destination="https://www.linkedin.com/company/akoro-digital-media/"/>
+                <SocialMediaIcon img_src="././assets/youtube.svg" link_destination="https://www.youtube.com/channel/UCzef-cWtG-A3MSoVzIXxq2Q"/>
             </div>
             <InteractiveLogo/>
             <TypeWritterText className="type-writter-text-container"/>
