@@ -7,8 +7,8 @@ export default function CardBody(props) {
       <div className={style.IconOuter}>
         <div className={style.IconInner}>
           <Image
-            src={props.ImageSource}
-            alt={props.AltText}
+            src={props.Icon}
+            alt={props.alttext}
             style={{ height: "8.33vw", width: "auto" }}
             className={style.Icon}
           />

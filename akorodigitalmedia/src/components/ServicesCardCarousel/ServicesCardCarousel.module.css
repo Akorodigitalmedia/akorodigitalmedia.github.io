@@ -1,0 +1,39 @@
+.ContentContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.Cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 0;
+  transition: left 0.3s;
+}
+.Card {
+  margin-right: 2.778vw; /*40px*/
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.btn {
+  height: 18.89vw; /*272px*/
+  width: 5vw; /*72px*/
+  background-color: #fee9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PrevBtn {
+  border-right: 0.1389vw solid #302c2d; /*2px*/
+}
+.NextBtn {
+  border-left: 0.1389vw solid #302c2d; /*2px*/
+}

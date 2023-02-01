@@ -7,7 +7,11 @@ export default function Header() {
   return (
     <div className={style.container}>
       <Link href="/">
-        <Image src={logo} />
+        <Image
+          src={logo}
+          style={{ width: "6.7361vw", height: "auto" }}
+          alt=""
+        />
       </Link>
       <NavLinks Title="About" />
       <NavLinks Title="Portfolio" />

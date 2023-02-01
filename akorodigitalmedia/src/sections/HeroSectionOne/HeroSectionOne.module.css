@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 3.472vw 5.556vw; /*50px 80px */
+  padding: 3.472vw; /*50px 80px */
 }
 .containerLeft {
   width: 44%;

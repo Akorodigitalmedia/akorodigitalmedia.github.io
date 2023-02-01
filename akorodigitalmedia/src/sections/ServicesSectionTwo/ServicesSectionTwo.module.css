@@ -1,6 +1,6 @@
 .container {
   border: 0.1389vw solid #302c2d; /*2px*/
-  padding: 6.94vw; /*100px*/
+  padding: 6.94vw 0; /*100px*/
   display: flex;
   justify-content: center;
   align-items: center;
