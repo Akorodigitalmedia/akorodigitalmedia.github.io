@@ -1,6 +1,18 @@
-import Head from "next/head";
-import Image from "next/image";
+import Header from "@/sections/Header";
+import HeroSectionOne from "@/sections/HeroSectionOne";
+import style from "../styles/MainPage.module.css";
+import ServicesSectionTwo from "@/sections/ServicesSectionTwo";
 
 export default function Home() {
-  return <div></div>;
+  return (
+    <div className={style.container}>
+      <Header />
+      <HeroSectionOne
+        Title="Helping you conquer the digital landscape one pixel at a time"
+        Description="Find out today how Digital Media can transform how people see
+      your brand."
+      />
+      <ServicesSectionTwo />
+    </div>
+  );
 }

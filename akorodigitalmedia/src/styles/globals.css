@@ -1,0 +1,93 @@
+* {
+  color: #302c2d;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-color: #fee9d9;
+}
+
+/*& FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Viaoda+Libre&display=swap");
+h1 {
+  font-family: "Viaoda Libre", cursive;
+  font-weight: lighter;
+  letter-spacing: -0.083vw; /*-1.5px*/
+  font-size: 6vw; /*108px*/
+}
+h2 {
+  font-family: "Viaoda Libre", cursive;
+  font-weight: lighter;
+  letter-spacing: -0.03vw; /*-0.5px*/
+  font-size: 3.78vw; /*68px*/
+}
+h3 {
+  font-family: "Viaoda Libre", cursive;
+  font-weight: normal;
+  letter-spacing: 0; /*0*/
+  font-size: 3vw; /*54px*/
+}
+h4 {
+  font-family: "Viaoda Libre", cursive;
+  font-weight: normal;
+  letter-spacing: 0.014vw; /*0.25px*/
+  font-size: 2.11vw; /*38px*/
+}
+h5 {
+  font-family: "Viaoda Libre", cursive;
+  font-weight: normal;
+  letter-spacing: 0; /*0*/
+  font-size: 1.5vw; /*27px*/
+}
+h6 {
+  font-family: "Viaoda Libre", cursive;
+  font-weight: bold;
+  letter-spacing: 0.0083vw; /*0.15px*/
+  font-size: 1.28vw; /*23px*/
+}
+.subtitle-1 {
+  font-family: "Viaoda Libre", cursive;
+  font-weight: normal;
+  letter-spacing: 0.0083vw; /*0.15px*/
+  font-size: 1vw; /*18px*/
+}
+.subtitle-2 {
+  font-family: "Viaoda Libre", cursive;
+  font-weight: bold;
+  letter-spacing: 0.0069vw; /*0.1px*/
+  font-size: 1.11vw; /*16px*/
+}
+.body-1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.0056vw; /*0.5*/
+  font-size: 0.89vw; /*16px*/
+}
+.body-2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.014vw; /*0.25px*/
+  font-size: 0.78vw; /*14px*/
+}
+.btn-txt {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.07vw; /*1.25px*/
+  font-size: 0.78vw; /*14px*/
+  text-transform: uppercase;
+}
+.caption {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.022vw; /*0.4px*/
+  font-size: 0.67vw; /*12px*/
+}
+.overline {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.083vw; /*1.5px*/
+  font-size: 0.556vw; /*10px*/
+}

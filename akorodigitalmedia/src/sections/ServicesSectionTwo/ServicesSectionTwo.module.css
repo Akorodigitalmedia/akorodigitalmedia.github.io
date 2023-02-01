@@ -1,0 +1,12 @@
+.container {
+  border: 0.1389vw solid #302c2d; /*2px*/
+  padding: 6.94vw; /*100px*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0.1389vw; /*2px*/
+}
+.Title {
+  margin-bottom: 1.04167vw; /*15px*/
+}

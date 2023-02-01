@@ -1,0 +1,10 @@
+.btnContainer {
+  padding: 1.3889vw 2.778vw; /*20px 40px*/
+  border: 0.1389vw solid #302c2d; /*2px*/
+  width: fit-content;
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
