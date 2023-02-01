@@ -1,0 +1,28 @@
+.IconOuter {
+  height: 15.278vw; /*220px*/
+  width: 15.278vw; /*220px*/
+  border: 0.1389vw solid #302c2d; /*2px*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.0694vw solid #302c2d; /*1px*/
+}
+.IconInner {
+  height: 14.583vw; /*210px*/
+  width: 14.583vw; /*210px*/
+  border: 0.1389vw solid #302c2d; /*2px*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CardTitle {
+  padding: 0.694vw 1.736vw; /*10px 25px*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1389vw solid #302c2d; /*2px*/
+  border-top: 0.0694vw solid #302c2d; /*1px*/
+}
+.ServicesCards_Icon__KKXvD {
+  height: 50%;
+}
