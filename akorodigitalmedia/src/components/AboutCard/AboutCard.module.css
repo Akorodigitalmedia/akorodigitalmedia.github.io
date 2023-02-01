@@ -1,0 +1,29 @@
+.container {
+  background-image: url("../../../public/assets/about-card-background.png");
+  background-size: cover;
+  height: 38.194vw; /*550px*/
+  width: 27.78vw; /*400px*/
+  border: 0.1389vw solid #302c2d; /*2px*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentContainer {
+  height: 25vw; /*360px*/
+  width: 18.40278vw; /*265px*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardTitle {
+  color: #f38722 !important;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 1.04167vw; /*15px*/
+}
+.cardDescription {
+  text-align: center;
+  line-height: 200%;
+}

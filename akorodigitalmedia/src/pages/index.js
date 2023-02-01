@@ -2,6 +2,7 @@ import Header from "@/sections/Header";
 import HeroSectionOne from "@/sections/HeroSectionOne";
 import style from "../styles/MainPage.module.css";
 import ServicesSectionTwo from "@/sections/ServicesSectionTwo";
+import AboutSectionThree from "@/sections/AboutUsSectionThree";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       your brand."
       />
       <ServicesSectionTwo />
+      <AboutSectionThree />
     </div>
   );
 }
