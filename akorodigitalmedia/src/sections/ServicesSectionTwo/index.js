@@ -1,4 +1,4 @@
-import style from "./ServicesSectionTwo.module.css";
+import style from "./ServicesSectionTwo.module.css"
 import CardsCarousel from "../../components/ServicesCardCarousel";
 import ButtonOne from "@/components/Buttons/ButtonOne";
 
@@ -11,6 +11,7 @@ export default function ServicesSection() {
         and development needs
       </p>
       <CardsCarousel className={style.CardsCarousel} />
+      <ButtonOne className={style.btn} Content="Get A free quote"/>
     </div>
   );
 }

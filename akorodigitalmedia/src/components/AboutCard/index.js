@@ -1,4 +1,4 @@
-import style from "./Aboutcard.module.css";
+import style from "./AboutCard.module.css";
 
 export default function AboutCard({ Title, Content }) {
   return (

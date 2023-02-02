@@ -1,8 +1,9 @@
 import NavLinks from "@/components/NavLinks";
 import Image from "next/image";
 import Link from "next/link";
-import style from "./Header.module.css";
 import logo from "../../../public/assets/logo.svg";
+import style from "./Header.module.css";
+
 export default function Header() {
   return (
     <div className={style.container}>
