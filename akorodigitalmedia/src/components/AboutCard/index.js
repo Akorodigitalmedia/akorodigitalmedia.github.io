@@ -1,6 +1,6 @@
 import style from "./Aboutcard.module.css";
 
-export default function AboutCard(Title, Content) {
+export default function AboutCard({ Title, Content }) {
   return (
     <div className={style.container}>
       <div className={style.contentContainer}>

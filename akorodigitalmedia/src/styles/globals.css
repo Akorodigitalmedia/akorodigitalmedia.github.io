@@ -43,7 +43,7 @@ h5 {
 }
 h6 {
   font-family: "Viaoda Libre", cursive;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: 0.0083vw; /*0.15px*/
   font-size: 1.28vw; /*23px*/
 }

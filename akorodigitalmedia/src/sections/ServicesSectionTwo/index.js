@@ -1,5 +1,6 @@
 import style from "./ServicesSectionTwo.module.css";
-import CardCarousel from "../../components/ServicesCardCarousel";
+import CardsCarousel from "../../components/ServicesCardCarousel";
+import ButtonOne from "@/components/Buttons/ButtonOne";
 
 export default function ServicesSection() {
   return (
@@ -9,7 +10,7 @@ export default function ServicesSection() {
         We offer a range of services to cater to all your digital media design
         and development needs
       </p>
-      <CardCarousel />
+      <CardsCarousel className={style.CardsCarousel} />
     </div>
   );
 }

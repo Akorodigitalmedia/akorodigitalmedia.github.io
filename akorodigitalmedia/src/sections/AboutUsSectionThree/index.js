@@ -7,7 +7,6 @@ export default function AboutSectionThree() {
       <p className={"subtitle-1 " + style.subtitle}>
         Helping you conquer the digital landscape, one pixel at a<br /> time.
       </p>
-      <AboutCard />
     </div>
   );
 }
