@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carouselContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 57.5vw; /*820px*/
+  z-index: 0;
+  overflow: hidden;
+}
+.CardContainer {
+  display: flex;
+  transition: left 1s ease-in-out;
+}
+.Card {
+  margin-right: 1.389vw; /*20px*/
+}
+.btn {
+  height: 18.89vw; /*272px*/
+  width: 5vw; /*72px*/
+  background-color: #fee9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.PrevBtn {
+  border-right: 0.1389vw solid #302c2d; /*2px*/
+  margin-right: 20px;
+}
+.NextBtn {
+  border-left: 0.1389vw solid #302c2d; /*2px*/
+  margin-left: 20px;
+}

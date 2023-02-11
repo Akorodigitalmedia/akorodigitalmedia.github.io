@@ -19,7 +19,7 @@ export default function CardCarousel() {
   const [position, setPosition] = useState(50);
   const moveRight = () => {
     if (position > 2) {
-      setPosition(position - 5);
+      setPosition(position - 10);
     } else if (position < 98) {
       setPosition(5);
     }
@@ -27,7 +27,7 @@ export default function CardCarousel() {
 
   const moveLeft = () => {
     if (position < 80) {
-      setPosition(position + 5);
+      setPosition(position + 10);
     } else if (position > 2) {
       setPosition(60);
     }

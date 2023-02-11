@@ -1,5 +1,5 @@
 import style from "./AboutSectionThree.module.css";
-import AboutCard from "@/components/AboutCard";
+import AboutCardsCarousel from "@/components/AboutCardsCarousel";
 export default function AboutSectionThree() {
   return (
     <div className={style.container}>
@@ -24,6 +24,8 @@ export default function AboutSectionThree() {
           landscape.
         </p>
       </div>
+      <h4 className={style.title2}>What are we known for?</h4>
+      <AboutCardsCarousel />
     </div>
   );
 }

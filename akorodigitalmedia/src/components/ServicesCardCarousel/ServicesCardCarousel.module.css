@@ -12,7 +12,7 @@
   align-items: center;
   position: relative;
   left: 0;
-  transition: left 0.3s;
+  transition: left 0.5s;
 }
 .Card {
   margin-right: 2.778vw; /*40px*/
@@ -21,9 +21,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;  
+  width: 100%;
   margin-bottom: 3.472vw; /*50px*/
-
 }
 .btn {
   height: 18.89vw; /*272px*/
