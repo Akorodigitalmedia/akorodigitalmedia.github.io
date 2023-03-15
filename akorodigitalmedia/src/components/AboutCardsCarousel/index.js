@@ -9,16 +9,16 @@ import RightArrow from "../../../public/assets/right-arrow.png";
 export default function AboutCardsCarousel() {
   const [position, setPosition] = useState(0);
   const moveRight = () => {
-    if (position > -235.52) {
-      setPosition(position - 58.88);
+    if (position > -234.5) {
+      setPosition(position - 58.75);
     } else {
-      setPosition(-235.52);
+      setPosition(-235);
     }
   };
 
   const moveLeft = () => {
     if (position < 0) {
-      setPosition(position + 58.88);
+      setPosition(position + 58.75);
     } else {
       setPosition(0);
     }

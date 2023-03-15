@@ -4,5 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 3.4722222222222223vw;
+}
+.h5 {
+  text-align: center;
 }
