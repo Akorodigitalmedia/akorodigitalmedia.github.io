@@ -1,0 +1,8 @@
+.container {
+  margin: 0.1389vw; /*2px*/
+  border: 0.1389vw solid #302c2d; /*2px*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}

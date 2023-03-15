@@ -3,6 +3,7 @@ import HeroSectionOne from "@/sections/HeroSectionOne";
 import style from "../styles/MainPage.module.css";
 import ServicesSectionTwo from "@/sections/ServicesSectionTwo";
 import AboutSectionThree from "@/sections/AboutUsSectionThree";
+import NewsletterSectionFour from "@/sections/NewsletterSectionFour";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       />
       <ServicesSectionTwo />
       <AboutSectionThree />
+      <NewsletterSectionFour />
     </div>
   );
 }
